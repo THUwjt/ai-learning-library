@@ -1,0 +1,46 @@
+/* Local KaTeX fonts, static HTML, no runtime/network dependency. */
+.paper-equation {
+  display: block;
+  max-width: 100%;
+  margin: 1.45rem 0;
+  padding: .75rem .5rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: var(--ink, #23303b);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  white-space: normal;
+  -webkit-overflow-scrolling: touch;
+}
+.paper-equation .katex-display { margin: .25em 0; width: max-content; min-width: 100%; }
+.paper-equation .katex { font-size: 1.1em; }
+.paper-inline { color: inherit; white-space: normal; }
+.paper-inline .katex { font-size: 1.04em; }
+.paper-equation:focus-visible { outline: 2px solid var(--teal, #186b7d); outline-offset: 3px; }
+.math-pseudocode {
+  display: block;
+  max-width: 100%;
+  margin: 1.25rem 0;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--rule, #e3ded4);
+  border-radius: 5px;
+  background: var(--code, #f5f2ec);
+  color: var(--ink, #23303b);
+  font: 13px/1.65 ui-monospace, SFMono-Regular, Menlo, monospace;
+  white-space: pre;
+  overflow-x: auto;
+}
+@media (max-width: 640px) {
+  .paper-equation { padding: .65rem .15rem; margin: 1.1rem 0; font-size: .94rem; }
+  .paper-equation .katex-display { text-align: left; }
+  .paper-equation .katex-display > .katex { text-align: left; }
+}
+@media print {
+  .paper-equation { break-inside: avoid; overflow: visible; padding: .35rem 0; }
+  .paper-equation .katex { font-size: 1em; }
+  .math-pseudocode { white-space: pre-wrap; }
+}

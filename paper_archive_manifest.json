@@ -1,0 +1,1152 @@
+{
+  "snapshot_date": "2026-09-25",
+  "pdf_count": 162,
+  "topics": {
+    "agents": 14,
+    "distributed": 12,
+    "hardware": 8,
+    "kv": 21,
+    "moe": 17,
+    "quantization": 28,
+    "robotics": 17,
+    "speculative": 19,
+    "training": 13,
+    "world": 13
+  },
+  "papers": [
+    {
+      "path": "talk_assets/deep_guides/agents/ace.pdf",
+      "topic": "agents",
+      "pages": 32,
+      "bytes": 2313268,
+      "sha256": "51050ced82df75c143b151262d5af8763916968ca50374bd8ff778f40552b0ad"
+    },
+    {
+      "path": "talk_assets/deep_guides/agents/agentless.pdf",
+      "topic": "agents",
+      "pages": 25,
+      "bytes": 1384716,
+      "sha256": "1675c2dcd5ecaef47e8a4356062f60be642cee82e1bbacb044c9d047dce4c856"
+    },
+    {
+      "path": "talk_assets/deep_guides/agents/dspy.pdf",
+      "topic": "agents",
+      "pages": 32,
+      "bytes": 460814,
+      "sha256": "5309836325c3a580b6c176242f49f21ca40e413b0acd514e74b67e16bb1b56bc"
+    },
+    {
+      "path": "talk_assets/deep_guides/agents/lats.pdf",
+      "topic": "agents",
+      "pages": 23,
+      "bytes": 1054882,
+      "sha256": "04c1e9cb00f384052739c53bcecb75626bf1f58f66c379cc289ea60ffc988635"
+    },
+    {
+      "path": "talk_assets/deep_guides/agents/lightning.pdf",
+      "topic": "agents",
+      "pages": 20,
+      "bytes": 2065451,
+      "sha256": "e223648a09b021785a46f60dd5ce13301622eca930ff91a5b45e971b53422561"
+    },
+    {
+      "path": "talk_assets/deep_guides/agents/memgpt.pdf",
+      "topic": "agents",
+      "pages": 13,
+      "bytes": 663708,
+      "sha256": "9f674bcff69c86f11c813dcfad613d8841f5f8ed17979e3c4df06a91df7762e0"
+    },
+    {
+      "path": "talk_assets/deep_guides/agents/orchestra.pdf",
+      "topic": "agents",
+      "pages": 21,
+      "bytes": 2774913,
+      "sha256": "26700ad59305912dd8ab65f43ec8ba9a27e66bbe32b4529f022b26134b4a4a46"
+    },
+    {
+      "path": "talk_assets/deep_guides/agents/react.pdf",
+      "topic": "agents",
+      "pages": 33,
+      "bytes": 633805,
+      "sha256": "f285b0971ae4a790e402fb93966bed3adde2cf0a04977d08b2b40d6ab0cace69"
+    },
+    {
+      "path": "talk_assets/deep_guides/agents/reflexion.pdf",
+      "topic": "agents",
+      "pages": 19,
+      "bytes": 591097,
+      "sha256": "6059b6f89fea9959bd3dab553fbb97756a3dfb1b15e3cbab2fbf3ab6664333bd"
+    },
+    {
+      "path": "talk_assets/deep_guides/agents/sweagent.pdf",
+      "topic": "agents",
+      "pages": 118,
+      "bytes": 4963538,
+      "sha256": "d171e0693060b910ceb2cddd0fd4bc7cae302005d42d0d8059bfdbe056c3adba"
+    },
+    {
+      "path": "talk_assets/deep_guides/agents/tau.pdf",
+      "topic": "agents",
+      "pages": 50,
+      "bytes": 663224,
+      "sha256": "0ce66a1763d698c61bb311c3c874bf593d1e9a5bfff11bb35f6f72b981f6da56"
+    },
+    {
+      "path": "talk_assets/deep_guides/agents/tau2.pdf",
+      "topic": "agents",
+      "pages": 47,
+      "bytes": 1243001,
+      "sha256": "0817e3fd33915326180d548caa900dcc5cba42ded27688105d8ce2f7e73aad84"
+    },
+    {
+      "path": "talk_assets/deep_guides/agents/toolformer.pdf",
+      "topic": "agents",
+      "pages": 17,
+      "bytes": 657966,
+      "sha256": "6d7483d94653008e40c2058a1c22441c92e3713dae278b6361e8efc447c99522"
+    },
+    {
+      "path": "talk_assets/deep_guides/agents/tot.pdf",
+      "topic": "agents",
+      "pages": 14,
+      "bytes": 799685,
+      "sha256": "79c5237e3f63953a73f2b0d6894327702ee1f7e981450c251bb1b5cb4f8d7b8f"
+    },
+    {
+      "path": "talk_assets/deep_guides/distributed/papers/diloco.pdf",
+      "topic": "distributed",
+      "pages": 16,
+      "bytes": 1643265,
+      "sha256": "517393b64beb2da8170e204555111eabe7e7c681e5482c3be252bf9794518b23"
+    },
+    {
+      "path": "talk_assets/deep_guides/distributed/papers/distserve.pdf",
+      "topic": "distributed",
+      "pages": 18,
+      "bytes": 647352,
+      "sha256": "3ef8776301629419e97d7f6dc08b9a46f3577e05e96538a17dd4a526762f42f0"
+    },
+    {
+      "path": "talk_assets/deep_guides/distributed/papers/gpipe.pdf",
+      "topic": "distributed",
+      "pages": 11,
+      "bytes": 539195,
+      "sha256": "697f257e85667829053707594800447f3a75482226ddb6eb24374905c5af6d44"
+    },
+    {
+      "path": "talk_assets/deep_guides/distributed/papers/megatron.pdf",
+      "topic": "distributed",
+      "pages": 15,
+      "bytes": 3850425,
+      "sha256": "fa89e54e23c0cea5cbd9d24720db7647c61af299afdb9a170c7119160e6d207a"
+    },
+    {
+      "path": "talk_assets/deep_guides/distributed/papers/megatron3d.pdf",
+      "topic": "distributed",
+      "pages": 13,
+      "bytes": 1035739,
+      "sha256": "7d78344f7fd322c901ad14046eeeaa9fd798416ad35190ffc6a6ecca0f7f79b0"
+    },
+    {
+      "path": "talk_assets/deep_guides/distributed/papers/ring.pdf",
+      "topic": "distributed",
+      "pages": 16,
+      "bytes": 1766025,
+      "sha256": "1e0ee1ad0aaf8c5763d060ba725887f1c6affda412c0a26dbb888cad5ad80f8c"
+    },
+    {
+      "path": "talk_assets/deep_guides/distributed/papers/sarathi.pdf",
+      "topic": "distributed",
+      "pages": 18,
+      "bytes": 1945812,
+      "sha256": "45f59f4474de29baf4d315c785b850625548b69a9bc7be2e036d6fc59f54b54a"
+    },
+    {
+      "path": "talk_assets/deep_guides/distributed/papers/sp.pdf",
+      "topic": "distributed",
+      "pages": 17,
+      "bytes": 3050278,
+      "sha256": "5fcd24e92a086f5671cbb8c0624cd42251d2d43324245da9d93b0b2289e46abc"
+    },
+    {
+      "path": "talk_assets/deep_guides/distributed/papers/stream.pdf",
+      "topic": "distributed",
+      "pages": 35,
+      "bytes": 3650148,
+      "sha256": "b89b1a45d51cebc9ae8f2d7c6c1e3b0c62d6e1d555fce0322c1a1269a85997ed"
+    },
+    {
+      "path": "talk_assets/deep_guides/distributed/papers/ulysses.pdf",
+      "topic": "distributed",
+      "pages": 12,
+      "bytes": 643890,
+      "sha256": "9258c53f28569c9dd367eb8db9a3ca06178ad5b5d225e61b25148caaf4cd9f11"
+    },
+    {
+      "path": "talk_assets/deep_guides/distributed/papers/zero-bubble.pdf",
+      "topic": "distributed",
+      "pages": 19,
+      "bytes": 649126,
+      "sha256": "0de7cd6efd52eaa3f216129cd186ab755b1045bca1f6ddc422216295a7e9fee9"
+    },
+    {
+      "path": "talk_assets/deep_guides/distributed/papers/zero.pdf",
+      "topic": "distributed",
+      "pages": 24,
+      "bytes": 779206,
+      "sha256": "c531734c7d9ee647fda9b4f0e1a6abd6d58ad34e862bc945451b09032be3167e"
+    },
+    {
+      "path": "talk_assets/deep_guides/hardware/papers/edgepaper.pdf",
+      "topic": "hardware",
+      "pages": 18,
+      "bytes": 940837,
+      "sha256": "02f7ab296f32c95393ad6966d2ef4417c315a8695f6c5090b6772879bdb35e97"
+    },
+    {
+      "path": "talk_assets/deep_guides/hardware/papers/flash.pdf",
+      "topic": "hardware",
+      "pages": 34,
+      "bytes": 2630825,
+      "sha256": "ca7f9fda10b90fc05dd291a3accc85e9c1a4a860b99b31928dab03ed3fcb14e4"
+    },
+    {
+      "path": "talk_assets/deep_guides/hardware/papers/flash3.pdf",
+      "topic": "hardware",
+      "pages": 22,
+      "bytes": 1096663,
+      "sha256": "3d05ca102802e6b8ebbae5181efe777b7d258cd75e2fe9cca209efd2f5e6c6cb"
+    },
+    {
+      "path": "talk_assets/deep_guides/hardware/papers/flash4.pdf",
+      "topic": "hardware",
+      "pages": 20,
+      "bytes": 7634447,
+      "sha256": "7c053b2b45a9d7da93b21f7dbe16ff8a927a9dc7e92537a034ca58a4eb5f10eb"
+    },
+    {
+      "path": "talk_assets/deep_guides/hardware/papers/gaudi.pdf",
+      "topic": "hardware",
+      "pages": 30,
+      "bytes": 3111089,
+      "sha256": "cecab8cf5e553e81a11c06256e949570625ef3b1a5f440765ee8b3a847d5816e"
+    },
+    {
+      "path": "talk_assets/deep_guides/hardware/papers/rtxarch.pdf",
+      "topic": "hardware",
+      "pages": 57,
+      "bytes": 8283392,
+      "sha256": "906ff2a409d7a7e4cbc56f5d3a179d574120d19aaba99520670e1a0c064595fa"
+    },
+    {
+      "path": "talk_assets/deep_guides/hardware/papers/tpu1.pdf",
+      "topic": "hardware",
+      "pages": 17,
+      "bytes": 1316647,
+      "sha256": "19793e4ae1486630ac45a12facabc0e80609dd679db8ca7a3a040f8bf0d8e0be"
+    },
+    {
+      "path": "talk_assets/deep_guides/hardware/papers/tpu4.pdf",
+      "topic": "hardware",
+      "pages": 14,
+      "bytes": 3011399,
+      "sha256": "94f08ac4cd041e46e5037876793761df8043296ac374aa5372af7afb0bdf3ce2"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/ada.pdf",
+      "topic": "kv",
+      "pages": 30,
+      "bytes": 1618102,
+      "sha256": "b3d92c5ba9af13899ba9e2e8a2c256620e5a55cc017a4c458fe76eafd42edcc3"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/cacheblend.pdf",
+      "topic": "kv",
+      "pages": 16,
+      "bytes": 1574337,
+      "sha256": "034b9f230930f20ed23fc7dc17bbdf3fee0a9ff11c928563904bce34ec2e98e6"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/cachegen.pdf",
+      "topic": "kv",
+      "pages": 19,
+      "bytes": 1657938,
+      "sha256": "3bbadb232c66d89dd1a68ecea65d76edc5e67074a97072e4a401ca7a6335a8de"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/fastdecode.pdf",
+      "topic": "kv",
+      "pages": 15,
+      "bytes": 507740,
+      "sha256": "c9a766de9a57ca0d785101b01557f0498251be4f7264ef588c029b2570e7c37c"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/flexgen.pdf",
+      "topic": "kv",
+      "pages": 23,
+      "bytes": 649663,
+      "sha256": "87896692bafaae87087b1cc1496dcf88c56f845a5e38665a39e58ec0189c3469"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/h2o.pdf",
+      "topic": "kv",
+      "pages": 49,
+      "bytes": 3482403,
+      "sha256": "f2d699db2c1fe34b53677067ba6f3b903a6f87dbd04e4f6ad5b9fa324cdb36df"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/headkv.pdf",
+      "topic": "kv",
+      "pages": 22,
+      "bytes": 4171043,
+      "sha256": "f74bfe1b417d161818cbbe6f1a2a633e2330f09dabb88f8483b83b63ca66b52c"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/infini.pdf",
+      "topic": "kv",
+      "pages": 19,
+      "bytes": 3212724,
+      "sha256": "638e3f536447ce7fbfed1b485654620629a4e34fbd250db74018b8a880c4f029"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/kivi.pdf",
+      "topic": "kv",
+      "pages": 15,
+      "bytes": 2194402,
+      "sha256": "df31ef32d71bfb280c533c5db8220cadf5ef42076bf45d82ba4c8da8e50ea5f4"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/kvquant.pdf",
+      "topic": "kv",
+      "pages": 27,
+      "bytes": 2169830,
+      "sha256": "7ca1001fee6be5013d40ebf00e81df3bb677c90f1feb5c78b413cba64589ecfc"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/lmcache.pdf",
+      "topic": "kv",
+      "pages": 19,
+      "bytes": 799013,
+      "sha256": "a1b6a90258c7e9091f24603ca4cff85f9f47410be10f5de89b7f902a2d3f6417"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/mooncake.pdf",
+      "topic": "kv",
+      "pages": 23,
+      "bytes": 681606,
+      "sha256": "af8db47ba2ccbbd7ca3f46de6176292010192afb0ffe5c51da2db56e1006f27a"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/paged.pdf",
+      "topic": "kv",
+      "pages": 16,
+      "bytes": 1459631,
+      "sha256": "55b3b324d779a67c59dac2519445e3b07c14e6ff5c656fadb47a3d7b5997469e"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/pyramidkv.pdf",
+      "topic": "kv",
+      "pages": 37,
+      "bytes": 17431584,
+      "sha256": "0bcd6c0fba461e76a746a91316847b7552b441a4ea4d6481e9561a0f7fa9fb01"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/quest.pdf",
+      "topic": "kv",
+      "pages": 11,
+      "bytes": 2263609,
+      "sha256": "93cda144859b4e38d595c42dbc578e4e0c8d436fa0891e3dfeb74716bacc4ce8"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/sglang.pdf",
+      "topic": "kv",
+      "pages": 20,
+      "bytes": 1383463,
+      "sha256": "161e0a0123a89cd8a57d68734ae704680b0e577fee41e1e7e1029c37a9d99b57"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/snapkv.pdf",
+      "topic": "kv",
+      "pages": 17,
+      "bytes": 1066370,
+      "sha256": "d17ce59a5a3342c9b0560c3503b0136f794fae92910421aa07dbca32e4279bf4"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/streaming.pdf",
+      "topic": "kv",
+      "pages": 21,
+      "bytes": 16952848,
+      "sha256": "e8a7de67c7c57642648362651b4cf64fd852467e18865a298916a36098314819"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/turboquant.pdf",
+      "topic": "kv",
+      "pages": 25,
+      "bytes": 861881,
+      "sha256": "431eb13926e10491f5fbd0bebd0813c51bd6c1e884426a1500c5db640b2997ab"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/ultraquant.pdf",
+      "topic": "kv",
+      "pages": 19,
+      "bytes": 3062503,
+      "sha256": "282f1407f115f130b5f91ccce901dc2b54759b2d3a3ffb07fbd8569dba4ae12e"
+    },
+    {
+      "path": "talk_assets/deep_guides/kv/vattention.pdf",
+      "topic": "kv",
+      "pages": 18,
+      "bytes": 1563582,
+      "sha256": "89017c3e7f5900cdf2b7295d647fc19bf45e674dddd3525ba86a5f203861c701"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/deepseekmoe.pdf",
+      "topic": "moe",
+      "pages": 33,
+      "bytes": 733666,
+      "sha256": "a64b509e1410d09cf5b70570788d27790985fb9808ce436b9da8de73f2eed651"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/deepspeed.pdf",
+      "topic": "moe",
+      "pages": 31,
+      "bytes": 1349543,
+      "sha256": "da4727a1fe4341231ed4dccb0c1b417ea7a55f114ac9e60b0d4dc997a09f1ebc"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/fiddler.pdf",
+      "topic": "moe",
+      "pages": 17,
+      "bytes": 2397054,
+      "sha256": "40c1502e197c29470a92566716fea8642b0eed38139da24e2c4ecfbdd32674c9"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/gshard.pdf",
+      "topic": "moe",
+      "pages": 35,
+      "bytes": 1747868,
+      "sha256": "4078d81e9ef6db2e3a982e56d3d8816766d8d49f350e02f7410501ca496ad54e"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/hobbit.pdf",
+      "topic": "moe",
+      "pages": 15,
+      "bytes": 5401977,
+      "sha256": "ea71f41bf4e9333d55999808ac226ad28d0e9318e772f51728a343a09cded9f6"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/infinity.pdf",
+      "topic": "moe",
+      "pages": 11,
+      "bytes": 589193,
+      "sha256": "2172d3905069cafc57f370294ea4814fb23ea847018476a42181e187de82d75a"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/lightning.pdf",
+      "topic": "moe",
+      "pages": 15,
+      "bytes": 5105280,
+      "sha256": "8fee924ef89fed055c0aebbac931a2ef06a9c09acaf30e0efcab814349d44bc5"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/lina.pdf",
+      "topic": "moe",
+      "pages": 16,
+      "bytes": 3563229,
+      "sha256": "6275fa741b6960b6004ee8500217a2282c71cddb8769d4850a215060c0862103"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/lynx.pdf",
+      "topic": "moe",
+      "pages": 16,
+      "bytes": 1429739,
+      "sha256": "96c218be3e4e08c14ca67ef1986e3551aa43de031405cb8e113ac85f8f5b8297"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/megablocks.pdf",
+      "topic": "moe",
+      "pages": 13,
+      "bytes": 566067,
+      "sha256": "70f79f9ee4fb2f3b46ebd071613a55b3124a2a665c49ae79415b3657797db045"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/megascale.pdf",
+      "topic": "moe",
+      "pages": 24,
+      "bytes": 1143163,
+      "sha256": "77ddd00732edb5728059243282cd2d80fe916fe28dca45818513ff08865a0f26"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/pregated.pdf",
+      "topic": "moe",
+      "pages": 14,
+      "bytes": 1342561,
+      "sha256": "d7d307b91d79576d46b5514c87f0daab9a33c279b0e200ea521f367d336fadae"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/sida.pdf",
+      "topic": "moe",
+      "pages": 15,
+      "bytes": 850448,
+      "sha256": "f0d88f8a494c21734e69d2c72cd8d31dcd6da3ccad8d363fcdb798cf2f7266e7"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/switch.pdf",
+      "topic": "moe",
+      "pages": 40,
+      "bytes": 1304157,
+      "sha256": "f340f6ace31abf7d0730ef461404279f40d3c890e9cc2daeb7068b3304afdbd6"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/tarragon.pdf",
+      "topic": "moe",
+      "pages": 17,
+      "bytes": 1080390,
+      "sha256": "60f8f53cec25c4adf354ca2d603a14e6d1ea5835817322504e079d7c889d7fbe"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/tutel.pdf",
+      "topic": "moe",
+      "pages": 19,
+      "bytes": 2175799,
+      "sha256": "2a0b21dca9b19a3499e58728667a81690b633b3de6f7e8fea5fc53d61a60a3e9"
+    },
+    {
+      "path": "talk_assets/deep_guides/moe/v3.pdf",
+      "topic": "moe",
+      "pages": 53,
+      "bytes": 1887366,
+      "sha256": "812a3fd645c80725354de9d831a6785503007a60681461407f64e97305fa9330"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/aqlm.pdf",
+      "topic": "quantization",
+      "pages": 20,
+      "bytes": 1918768,
+      "sha256": "41f0da86fb91478587ab70136b3101f79820c223244cb055bb962cc7c31347f4"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/awq.pdf",
+      "topic": "quantization",
+      "pages": 15,
+      "bytes": 19804976,
+      "sha256": "6e35c8fe7af1f18a5c48dd2524629d859a2013a91d4b3666b554705287a17764"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/bitnet.pdf",
+      "topic": "quantization",
+      "pages": 8,
+      "bytes": 463748,
+      "sha256": "bcd625e89f95c39dc9143af4174978fcf2467eb9659d86f8da448d7d9366c332"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/duquant.pdf",
+      "topic": "quantization",
+      "pages": 29,
+      "bytes": 23969615,
+      "sha256": "9ca78e7cb5773e459cb89c77613bf9d264a5d4bd8f94411b73c1fdc534c9411b"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/duquant2.pdf",
+      "topic": "quantization",
+      "pages": 10,
+      "bytes": 351815,
+      "sha256": "21400050b092e1c23465edb1eb5668c5f9193de3b103705aa43f0dfef3b0d2fc"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/flat.pdf",
+      "topic": "quantization",
+      "pages": 27,
+      "bytes": 11932683,
+      "sha256": "06a3ac8f82c56c55c86b3fe8800bbab08a68058fb088fffc05d78efa03da9a68"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/fp8.pdf",
+      "topic": "quantization",
+      "pages": 9,
+      "bytes": 281195,
+      "sha256": "809a9557e907765b452c5a1b7308a92e31dd31a07e668d49d14b1594b6c0cf0c"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/gptq.pdf",
+      "topic": "quantization",
+      "pages": 16,
+      "bytes": 521818,
+      "sha256": "35e339171cd48bbf8dda246bd018b11aa33a5cda0c4a1587cdae574208f56396"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/int8.pdf",
+      "topic": "quantization",
+      "pages": 20,
+      "bytes": 719021,
+      "sha256": "40da3ce2d38eb3baa8b638cab093bd048178205c1eb4d0671e79c108f72906bf"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/kivi.pdf",
+      "topic": "quantization",
+      "pages": 15,
+      "bytes": 2194402,
+      "sha256": "df31ef32d71bfb280c533c5db8220cadf5ef42076bf45d82ba4c8da8e50ea5f4"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/kvquant.pdf",
+      "topic": "quantization",
+      "pages": 27,
+      "bytes": 2169830,
+      "sha256": "7ca1001fee6be5013d40ebf00e81df3bb677c90f1feb5c78b413cba64589ecfc"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/marlin.pdf",
+      "topic": "quantization",
+      "pages": 14,
+      "bytes": 890112,
+      "sha256": "bd010465d8f41447674e8f844d6b6e333fc474e81b84e7ea734639c97334fdeb"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/nvfp4.pdf",
+      "topic": "quantization",
+      "pages": 22,
+      "bytes": 2823374,
+      "sha256": "8f0a2eeab9cdd71c36af759922f7e41a43c00cc6fc3cd8525e23b2c8d0d82565"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/omni.pdf",
+      "topic": "quantization",
+      "pages": 25,
+      "bytes": 1020535,
+      "sha256": "8aa575f85ffb4da0a4bcfd4143c2c3ddbd4805cbdac4d39448c9960d5a29036f"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/qat.pdf",
+      "topic": "quantization",
+      "pages": 15,
+      "bytes": 567122,
+      "sha256": "3359dde6976aaa4237a99aa3a3b9b19c620c140d64a844d6d6a28ce638f5bfb9"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/qlora.pdf",
+      "topic": "quantization",
+      "pages": 26,
+      "bytes": 1065470,
+      "sha256": "33a4e757c19d6ea8d3cca8958fce8fe405e290272e135c99ee66065c775d5bd1"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/quarot.pdf",
+      "topic": "quantization",
+      "pages": 21,
+      "bytes": 624957,
+      "sha256": "f611888c63ef63a5c0232e2c8416619f0c9ace08d0e05692731da82791202e3e"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/quip.pdf",
+      "topic": "quantization",
+      "pages": 27,
+      "bytes": 1255058,
+      "sha256": "2a5c4c103ba31f4a889344d95059c40e96841761e725500829f00b5a16c3d825"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/quiporiginal.pdf",
+      "topic": "quantization",
+      "pages": 34,
+      "bytes": 751826,
+      "sha256": "782982b03b97f6437df021d122ed15779454318032888db38d24b038e2062d93"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/signround.pdf",
+      "topic": "quantization",
+      "pages": 19,
+      "bytes": 2271477,
+      "sha256": "c2d0cb643c7c7a3cc4cf56cbed75d415c0bb51f4ac92d0aec80d536cc2100e5c"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/signround2.pdf",
+      "topic": "quantization",
+      "pages": 23,
+      "bytes": 812847,
+      "sha256": "396d6d95d718f6a22655748bafb75d9ff920a4be706023ceb678f45bcc2681cd"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/smooth.pdf",
+      "topic": "quantization",
+      "pages": 13,
+      "bytes": 5378996,
+      "sha256": "d17856490ff664a99f8d08fe76eabd83219ed048cd1bc18ce3d0571e71056ff8"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/spin.pdf",
+      "topic": "quantization",
+      "pages": 24,
+      "bytes": 10207972,
+      "sha256": "fe437770d7c981eae9e028eacaa5c772ed0add900ed9dec54c10cfce6dfd86c3"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/spqr.pdf",
+      "topic": "quantization",
+      "pages": 26,
+      "bytes": 2950333,
+      "sha256": "904667ab9efa016eff78411a59e1c7cb03bb96897762e154cb88c09d5a03a73a"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/squeeze.pdf",
+      "topic": "quantization",
+      "pages": 23,
+      "bytes": 1265851,
+      "sha256": "9781d343dbe73e5353f5500d0e0732006c941bf3fdcd0d70cbc59f89622ec821"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/turboquant.pdf",
+      "topic": "quantization",
+      "pages": 25,
+      "bytes": 861881,
+      "sha256": "431eb13926e10491f5fbd0bebd0813c51bd6c1e884426a1500c5db640b2997ab"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/ultraquant.pdf",
+      "topic": "quantization",
+      "pages": 19,
+      "bytes": 3062503,
+      "sha256": "282f1407f115f130b5f91ccce901dc2b54759b2d3a3ffb07fbd8569dba4ae12e"
+    },
+    {
+      "path": "talk_assets/deep_guides/quantization/papers/zeroquant.pdf",
+      "topic": "quantization",
+      "pages": 24,
+      "bytes": 1018769,
+      "sha256": "085dcd0e5ae6705dc0130fe0ed9a389805bf9df67a03501e1a4c6551d75da62f"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/act.pdf",
+      "topic": "robotics",
+      "pages": 18,
+      "bytes": 5353485,
+      "sha256": "2e2fe25860f5f9cee9e655a2714e9f2264a7a5078bcd267c16d3f39af461345a"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/dagger.pdf",
+      "topic": "robotics",
+      "pages": 9,
+      "bytes": 551229,
+      "sha256": "12b032cfd451b8ace4b18145dbe24382d2cbe2eda6b562331bc86799bbaafd5e"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/dp.pdf",
+      "topic": "robotics",
+      "pages": 19,
+      "bytes": 6192199,
+      "sha256": "b65c474b696a4802d8f1457d86b637ce2c5521412570d3aa928cd54563babc8f"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/droid.pdf",
+      "topic": "robotics",
+      "pages": 26,
+      "bytes": 9707714,
+      "sha256": "9e40a9c934ce78ea315d2c05593d60f9e18edf6dcd3785cd66439518965c3b07"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/fast.pdf",
+      "topic": "robotics",
+      "pages": 19,
+      "bytes": 7468382,
+      "sha256": "3739b31f5fecdde371509ff5bb13619979734e894a255a9b264253f4cc53934a"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/h2o.pdf",
+      "topic": "robotics",
+      "pages": 10,
+      "bytes": 13325640,
+      "sha256": "78d380da6e28949275137a7dd46922116a81efdf417a02aa81c6f40c5bcade22"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/octo.pdf",
+      "topic": "robotics",
+      "pages": 17,
+      "bytes": 3675649,
+      "sha256": "73bff297cfafe523319162124e6b7f96919c0930e0a380f307255c4c7464ac93"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/oft.pdf",
+      "topic": "robotics",
+      "pages": 24,
+      "bytes": 26994977,
+      "sha256": "b860aa1206b6cfb0ce8be177f961379dd6a133d52cc74ac346636e0f4952a596"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/openvla.pdf",
+      "topic": "robotics",
+      "pages": 37,
+      "bytes": 13240309,
+      "sha256": "353c37df34458f12f969b14dfd8b77175b727b9cddea7bb891759beddeefe1be"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/oxe.pdf",
+      "topic": "robotics",
+      "pages": 12,
+      "bytes": 4011306,
+      "sha256": "13f16aff5afdee583dc25b3c570e9bb0cf6baefb59b539928d919588cd8d9246"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/pi0.pdf",
+      "topic": "robotics",
+      "pages": 17,
+      "bytes": 7893845,
+      "sha256": "fbdfba56258bdbd220207ba63410c6c943e43a73e97a7a5a47ca0bc74204f821"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/pi05.pdf",
+      "topic": "robotics",
+      "pages": 19,
+      "bytes": 16213397,
+      "sha256": "6a1029fd8ab6944b74cf22f5e5d30e60bc15699d964b2900af799b807a34b64c"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/pi07.pdf",
+      "topic": "robotics",
+      "pages": 25,
+      "bytes": 15587236,
+      "sha256": "54843c88fbabf6bce53ab2ee94cafc9a55c3d5639f7b74c5e8ad24485fe6863b"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/recap.pdf",
+      "topic": "robotics",
+      "pages": 18,
+      "bytes": 25075375,
+      "sha256": "9f4f5a3070ad9549ea7687ea54baa19858820dbcc0834cc805212d68fd6c8cb3"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/rma.pdf",
+      "topic": "robotics",
+      "pages": 15,
+      "bytes": 16534863,
+      "sha256": "d8660da881851756287efab24d85f5c629ba97878f70297eb429a8e8a9a57846"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/rt2.pdf",
+      "topic": "robotics",
+      "pages": 26,
+      "bytes": 15668163,
+      "sha256": "0a62dc36bbbfdea232ad45a0ab75c82e9cf535b55333ff22c02d5da1897ccac3"
+    },
+    {
+      "path": "talk_assets/deep_guides/robotics/pdfs/rtc.pdf",
+      "topic": "robotics",
+      "pages": 25,
+      "bytes": 9502903,
+      "sha256": "dd6d602be1f50b894d88517bf68916c4272885b2e29d96cffc426dacff41898f"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/blockwise.pdf",
+      "topic": "speculative",
+      "pages": 10,
+      "bytes": 401417,
+      "sha256": "e34c3c9ddd1066b7dc2c11406580a586a6d483a23e6362e1414f760b655c52e1"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/canonical.pdf",
+      "topic": "speculative",
+      "pages": 41,
+      "bytes": 1134063,
+      "sha256": "47f9100d2d411067d945e845fd842de663c8d7115ef32d47be4cccc44b2cc036"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/dflash.pdf",
+      "topic": "speculative",
+      "pages": 13,
+      "bytes": 499459,
+      "sha256": "ffa514e6ce180eb1f7a39c49372f3b8170b99f8bc142d4a4daa0f087bf2ceb91"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/draftverify.pdf",
+      "topic": "speculative",
+      "pages": 19,
+      "bytes": 1050600,
+      "sha256": "4136bdd1fccbc5a6e09b00548d0db2e9e83de7c6af14c8f2d5c2deb3e77219fa"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/eagle1.pdf",
+      "topic": "speculative",
+      "pages": 13,
+      "bytes": 1865998,
+      "sha256": "3484aad4d255ac8ff3ebbb0df9f3b2fdb222145923f59ad25727812f4748a0f4"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/eagle2.pdf",
+      "topic": "speculative",
+      "pages": 12,
+      "bytes": 1781552,
+      "sha256": "712a5af2ca1936d60eaa22cbebaaed36029777661dd61b2fab56de06eb931f6b"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/eagle3.pdf",
+      "topic": "speculative",
+      "pages": 12,
+      "bytes": 946062,
+      "sha256": "8a178337a1b05067907167dd81a43a7184596d71d4b795d6a0c73e6235fe1a27"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/hydra.pdf",
+      "topic": "speculative",
+      "pages": 17,
+      "bytes": 554092,
+      "sha256": "c531e10ad363f2498865efee1b89864bf7a5c6ad239836a80f756f0f137cb71c"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/layerskip.pdf",
+      "topic": "speculative",
+      "pages": 27,
+      "bytes": 1543672,
+      "sha256": "04359327efd434b5b06a46ce280a37f88044d45f58c42d2fc99088165b1a6ead"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/leviathan.pdf",
+      "topic": "speculative",
+      "pages": 13,
+      "bytes": 574982,
+      "sha256": "8967e2daab74178b8a73a6f0b0780c5cbb40f9f6dcbd5c456b24a89c128c52ed"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/lookahead.pdf",
+      "topic": "speculative",
+      "pages": 16,
+      "bytes": 909776,
+      "sha256": "f448d302916d213547abc262397c004b093f3d493ee0a5a365791d64b0cf8218"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/magicdec.pdf",
+      "topic": "speculative",
+      "pages": 16,
+      "bytes": 879502,
+      "sha256": "a790569abe3000955becc89de7faecb613180a2e87131d3a34e2d114aa018ea5"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/medusa.pdf",
+      "topic": "speculative",
+      "pages": 27,
+      "bytes": 2121059,
+      "sha256": "93d98f2e858c87ee04be440ee81ab8ad93700652ed759227d25fcf75cfdd5ef0"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/rest.pdf",
+      "topic": "speculative",
+      "pages": 14,
+      "bytes": 666306,
+      "sha256": "2c959dd4e7ea6ac9455c2ee7184779ba86cdfa87729967f3b68ac36a5c450147"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/sequoia.pdf",
+      "topic": "speculative",
+      "pages": 27,
+      "bytes": 945646,
+      "sha256": "4e93904ae0a2a8b1813767e8a67c6709833b8affd60aff927c30619c37e4e7f8"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/specbench.pdf",
+      "topic": "speculative",
+      "pages": 17,
+      "bytes": 1777187,
+      "sha256": "e1514736ae0cbaa3592be40d4ec0fd3ac13d12a54866977d9c4c832bb4e49041"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/specinfer.pdf",
+      "topic": "speculative",
+      "pages": 18,
+      "bytes": 2101058,
+      "sha256": "38764bfe741d39c9a309d1b715e8dc2cea6ea6c965337752b3562b1785afd9f1"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/specserve.pdf",
+      "topic": "speculative",
+      "pages": 14,
+      "bytes": 1228800,
+      "sha256": "014ca83dc003c8f1ceb3f69a958c69b7aa98ee59b0274f8895fc721543e06242"
+    },
+    {
+      "path": "talk_assets/deep_guides/speculative/spectr.pdf",
+      "topic": "speculative",
+      "pages": 21,
+      "bytes": 717425,
+      "sha256": "282933bead429a13c239f739376490365d724e124fc9b1a4737be27e8c80bfc4"
+    },
+    {
+      "path": "talk_assets/deep_guides/training/dapo.pdf",
+      "topic": "training",
+      "pages": 16,
+      "bytes": 826801,
+      "sha256": "f01e4fd347530cadd68e5c36b1998532a6d1adb272c817e73b927453c26e9d79"
+    },
+    {
+      "path": "talk_assets/deep_guides/training/dclm.pdf",
+      "topic": "training",
+      "pages": 89,
+      "bytes": 1656647,
+      "sha256": "af8fc884ccd601f8c6fbbba8f8e381de652fce1233949c0c64f64b4ab4b0f5b2"
+    },
+    {
+      "path": "talk_assets/deep_guides/training/dpo.pdf",
+      "topic": "training",
+      "pages": 27,
+      "bytes": 1299212,
+      "sha256": "92cb3a2b71362acda98a789b03d88688fd33cf5fcf13f81d2b1de30ee7d3b67a"
+    },
+    {
+      "path": "talk_assets/deep_guides/training/fineweb.pdf",
+      "topic": "training",
+      "pages": 38,
+      "bytes": 3137041,
+      "sha256": "ae632bd6618d2566e708962670f27ab1fbc5ba9bc8de3acaceee8fbda85fbdd4"
+    },
+    {
+      "path": "talk_assets/deep_guides/training/grpo.pdf",
+      "topic": "training",
+      "pages": 30,
+      "bytes": 1844642,
+      "sha256": "6cc20b3c5b8d25b8b53868fc4ec1792c144f07d67bdf7395138efd4422197e7b"
+    },
+    {
+      "path": "talk_assets/deep_guides/training/instruct.pdf",
+      "topic": "training",
+      "pages": 68,
+      "bytes": 1797405,
+      "sha256": "c1984bb50a5b90fddb895fdc3a0f72e5bc977148c9f63ef6040cbe7a3e1f0d98"
+    },
+    {
+      "path": "talk_assets/deep_guides/training/llama3.pdf",
+      "topic": "training",
+      "pages": 92,
+      "bytes": 9833173,
+      "sha256": "481f1599468f95a07d05e97fafe55bbe786dc1624c6f881bcb4c7d14c933d083"
+    },
+    {
+      "path": "talk_assets/deep_guides/training/lora.pdf",
+      "topic": "training",
+      "pages": 26,
+      "bytes": 1609513,
+      "sha256": "e9a0d3128767db616085dc0f4e6e455e672e89af823e8ed1282793682787395a"
+    },
+    {
+      "path": "talk_assets/deep_guides/training/mixed.pdf",
+      "topic": "training",
+      "pages": 12,
+      "bytes": 1404641,
+      "sha256": "3bbff2f757abdcfe4c5a4cee338f7b7d888110b9013ec4a934e334016f527c78"
+    },
+    {
+      "path": "talk_assets/deep_guides/training/muon.pdf",
+      "topic": "training",
+      "pages": 19,
+      "bytes": 2077505,
+      "sha256": "6b8e3b47da4db09c952a35486c905f416c57081a32b445a36a3744c441b1c7f3"
+    },
+    {
+      "path": "talk_assets/deep_guides/training/qlora.pdf",
+      "topic": "training",
+      "pages": 26,
+      "bytes": 1065470,
+      "sha256": "33a4e757c19d6ea8d3cca8958fce8fe405e290272e135c99ee66065c775d5bd1"
+    },
+    {
+      "path": "talk_assets/deep_guides/training/r1.pdf",
+      "topic": "training",
+      "pages": 86,
+      "bytes": 5034998,
+      "sha256": "b191b0a365a64b4ab2791d117069ed17a2933d03554a662ced58b37df52018f4"
+    },
+    {
+      "path": "talk_assets/deep_guides/training/v3.pdf",
+      "topic": "training",
+      "pages": 53,
+      "bytes": 1887366,
+      "sha256": "812a3fd645c80725354de9d831a6785503007a60681461407f64e97305fa9330"
+    },
+    {
+      "path": "talk_assets/deep_guides/world/pdfs/diamond.pdf",
+      "topic": "world",
+      "pages": 28,
+      "bytes": 4351428,
+      "sha256": "842ff972404c74ca4bac9d2f37a6d309506c19eb3f2efa3e0daf75d6abc19707"
+    },
+    {
+      "path": "talk_assets/deep_guides/world/pdfs/dreamer.pdf",
+      "topic": "world",
+      "pages": 20,
+      "bytes": 1999946,
+      "sha256": "318891d59ba0065f57eb0e735735700e5eb528f53bf08b81c773437385586c64"
+    },
+    {
+      "path": "talk_assets/deep_guides/world/pdfs/dv2.pdf",
+      "topic": "world",
+      "pages": 26,
+      "bytes": 5261247,
+      "sha256": "037dce26de328dd86ce4ab71dfb54f44513fef49a02f2995a1c05848ccef158f"
+    },
+    {
+      "path": "talk_assets/deep_guides/world/pdfs/dv3.pdf",
+      "topic": "world",
+      "pages": 40,
+      "bytes": 2874717,
+      "sha256": "d0385798e8bada8e81b915c1743be81d9ce8776f12ed937e09351995e099ce37"
+    },
+    {
+      "path": "talk_assets/deep_guides/world/pdfs/dv4.pdf",
+      "topic": "world",
+      "pages": 32,
+      "bytes": 3693729,
+      "sha256": "8655cce4bf12ce6210f6694f83c1a723c7acd7579214ca3ebc57c4394d0b1aeb"
+    },
+    {
+      "path": "talk_assets/deep_guides/world/pdfs/ez.pdf",
+      "topic": "world",
+      "pages": 22,
+      "bytes": 2532206,
+      "sha256": "057c3466e3aabec6d9a7dc6ac597b43caf546d73ea50241263f7113fdc416a69"
+    },
+    {
+      "path": "talk_assets/deep_guides/world/pdfs/genie.pdf",
+      "topic": "world",
+      "pages": 27,
+      "bytes": 42346194,
+      "sha256": "94c63a5ced89355326706c88236591c2972ced12f3dece4f8982f020110c81f3"
+    },
+    {
+      "path": "talk_assets/deep_guides/world/pdfs/iris.pdf",
+      "topic": "world",
+      "pages": 21,
+      "bytes": 655408,
+      "sha256": "6b583542ba35dc99a36127dd3b7650aac5d28479f3fe0e5e47f741768ae587b4"
+    },
+    {
+      "path": "talk_assets/deep_guides/world/pdfs/muzero.pdf",
+      "topic": "world",
+      "pages": 21,
+      "bytes": 2701361,
+      "sha256": "25588ee1d48690b33359a08a42fadfe86335aefefeee241d465b8bbd5eaa445c"
+    },
+    {
+      "path": "talk_assets/deep_guides/world/pdfs/pets.pdf",
+      "topic": "world",
+      "pages": 17,
+      "bytes": 4020485,
+      "sha256": "7dbf3c65ece763384258a60f5f4b26d7b849ad80765ed77435c4861f9583219c"
+    },
+    {
+      "path": "talk_assets/deep_guides/world/pdfs/planet.pdf",
+      "topic": "world",
+      "pages": 20,
+      "bytes": 3146899,
+      "sha256": "abac727526e6a45669d3ab9957126587e22aacf4dc9bcd60ffe5c853108e5bcc"
+    },
+    {
+      "path": "talk_assets/deep_guides/world/pdfs/tdmpc2.pdf",
+      "topic": "world",
+      "pages": 31,
+      "bytes": 7858004,
+      "sha256": "99832c555b66665ad1e26cd48e75ea9dda4f3750175b993e7ed5b8dfe399b9e0"
+    },
+    {
+      "path": "talk_assets/deep_guides/world/pdfs/vjepa.pdf",
+      "topic": "world",
+      "pages": 48,
+      "bytes": 20240380,
+      "sha256": "9cfcfde5fb0d9730637da5b9e7317825c3f3d09e91f3553e22eeba42c74d2226"
+    }
+  ]
+}

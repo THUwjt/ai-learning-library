@@ -1,0 +1,917 @@
+{
+  "guide_count": 16,
+  "html_count": 18,
+  "files": 283,
+  "bytes": 68337099,
+  "pdf_links_rewritten": 156,
+  "retained_pdfs": [],
+  "unresolved_local_references": [],
+  "paper_url_evidence": {
+    "talk_assets/deep_guides/moe/switch.pdf": {
+      "url": "https://arxiv.org/pdf/2101.03961",
+      "evidence": "talk_assets/deep_guides/moe/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/moe/deepspeed.pdf": {
+      "url": "https://arxiv.org/pdf/2201.05596",
+      "evidence": "talk_assets/deep_guides/moe/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/moe/tutel.pdf": {
+      "url": "https://arxiv.org/pdf/2206.03382",
+      "evidence": "talk_assets/deep_guides/moe/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/moe/megablocks.pdf": {
+      "url": "https://arxiv.org/pdf/2211.15841",
+      "evidence": "talk_assets/deep_guides/moe/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/moe/lina.pdf": {
+      "url": "https://www.usenix.org/system/files/atc23-li-jiamin.pdf",
+      "evidence": "talk_assets/deep_guides/moe/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/moe/pregated.pdf": {
+      "url": "https://arxiv.org/pdf/2308.12066",
+      "evidence": "talk_assets/deep_guides/moe/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/moe/sida.pdf": {
+      "url": "https://arxiv.org/pdf/2310.18859",
+      "evidence": "talk_assets/deep_guides/moe/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/moe/fiddler.pdf": {
+      "url": "https://arxiv.org/pdf/2402.07033",
+      "evidence": "talk_assets/deep_guides/moe/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/moe/infinity.pdf": {
+      "url": "https://arxiv.org/pdf/2401.14361",
+      "evidence": "talk_assets/deep_guides/moe/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/moe/deepseekmoe.pdf": {
+      "url": "https://arxiv.org/pdf/2401.06066",
+      "evidence": "talk_assets/deep_guides/moe/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/moe/megascale.pdf": {
+      "url": "https://arxiv.org/pdf/2504.02263",
+      "evidence": "talk_assets/deep_guides/moe/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/hardware/papers/tpu1.pdf": {
+      "url": "https://arxiv.org/abs/1704.04760",
+      "evidence": "LLM_Hardware_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/hardware/papers/flash.pdf": {
+      "url": "https://arxiv.org/abs/2205.14135",
+      "evidence": "LLM_Hardware_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/hardware/papers/tpu4.pdf": {
+      "url": "https://arxiv.org/abs/2304.01433",
+      "evidence": "LLM_Hardware_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/hardware/papers/flash3.pdf": {
+      "url": "https://arxiv.org/abs/2407.08608",
+      "evidence": "LLM_Hardware_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/hardware/papers/flash4.pdf": {
+      "url": "https://arxiv.org/abs/2603.05451",
+      "evidence": "LLM_Hardware_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/hardware/papers/gaudi.pdf": {
+      "url": "https://cdrdv2-public.intel.com/817486/gaudi-3-ai-accelerator-white-paper.pdf",
+      "evidence": "LLM_Hardware_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/hardware/papers/rtxarch.pdf": {
+      "url": "https://images.nvidia.com/aem-dam/Solutions/geforce/blackwell/nvidia-rtx-blackwell-gpu-architecture.pdf",
+      "evidence": "LLM_Hardware_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/hardware/papers/edgepaper.pdf": {
+      "url": "https://arxiv.org/abs/2506.09554",
+      "evidence": "LLM_Hardware_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/distributed/papers/zero.pdf": {
+      "url": "https://arxiv.org/abs/1910.02054",
+      "evidence": "Distributed_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/distributed/papers/megatron.pdf": {
+      "url": "https://arxiv.org/abs/1909.08053",
+      "evidence": "Distributed_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/distributed/papers/gpipe.pdf": {
+      "url": "https://arxiv.org/abs/1811.06965",
+      "evidence": "Distributed_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/distributed/papers/megatron3d.pdf": {
+      "url": "https://arxiv.org/abs/2104.04473",
+      "evidence": "Distributed_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/distributed/papers/zero-bubble.pdf": {
+      "url": "https://arxiv.org/abs/2401.10241",
+      "evidence": "Distributed_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/distributed/papers/sp.pdf": {
+      "url": "https://arxiv.org/abs/2205.05198",
+      "evidence": "Distributed_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/distributed/papers/ulysses.pdf": {
+      "url": "https://arxiv.org/abs/2309.14509",
+      "evidence": "Distributed_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/distributed/papers/ring.pdf": {
+      "url": "https://arxiv.org/abs/2310.01889",
+      "evidence": "Distributed_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/distributed/papers/sarathi.pdf": {
+      "url": "https://arxiv.org/html/2403.02310v3",
+      "evidence": "Distributed_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/distributed/papers/distserve.pdf": {
+      "url": "https://arxiv.org/html/2401.09670v3",
+      "evidence": "Distributed_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/distributed/papers/diloco.pdf": {
+      "url": "https://arxiv.org/abs/2311.08105",
+      "evidence": "Distributed_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/distributed/papers/stream.pdf": {
+      "url": "https://arxiv.org/abs/2501.18512",
+      "evidence": "Distributed_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/training/llama3.pdf": {
+      "url": "https://arxiv.org/abs/2407.21783",
+      "evidence": "LLM_Training_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/training/fineweb.pdf": {
+      "url": "https://arxiv.org/abs/2406.17557",
+      "evidence": "LLM_Training_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/training/dclm.pdf": {
+      "url": "https://arxiv.org/abs/2406.11794",
+      "evidence": "LLM_Training_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/training/muon.pdf": {
+      "url": "https://arxiv.org/html/2502.16982v1",
+      "evidence": "LLM_Training_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/training/mixed.pdf": {
+      "url": "https://arxiv.org/abs/1710.03740",
+      "evidence": "LLM_Training_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/training/lora.pdf": {
+      "url": "https://arxiv.org/abs/2106.09685",
+      "evidence": "LLM_Training_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/training/qlora.pdf": {
+      "url": "https://arxiv.org/abs/2305.14314",
+      "evidence": "LLM_Training_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/training/instruct.pdf": {
+      "url": "https://arxiv.org/abs/2203.02155",
+      "evidence": "LLM_Training_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/training/dpo.pdf": {
+      "url": "https://arxiv.org/abs/2305.18290",
+      "evidence": "LLM_Training_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/training/grpo.pdf": {
+      "url": "https://arxiv.org/abs/2402.03300",
+      "evidence": "LLM_Training_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/training/r1.pdf": {
+      "url": "https://arxiv.org/abs/2501.12948",
+      "evidence": "LLM_Training_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/training/dapo.pdf": {
+      "url": "https://arxiv.org/abs/2503.14476v2",
+      "evidence": "LLM_Training_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/agents/react.pdf": {
+      "url": "https://arxiv.org/abs/2210.03629",
+      "evidence": "Agentic_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/agents/toolformer.pdf": {
+      "url": "https://arxiv.org/abs/2302.04761",
+      "evidence": "Agentic_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/agents/tot.pdf": {
+      "url": "https://arxiv.org/abs/2305.10601",
+      "evidence": "Agentic_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/agents/lats.pdf": {
+      "url": "https://arxiv.org/abs/2310.04406",
+      "evidence": "Agentic_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/agents/reflexion.pdf": {
+      "url": "https://arxiv.org/abs/2303.11366",
+      "evidence": "Agentic_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/agents/memgpt.pdf": {
+      "url": "https://arxiv.org/abs/2310.08560",
+      "evidence": "Agentic_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/agents/ace.pdf": {
+      "url": "https://arxiv.org/abs/2510.04618",
+      "evidence": "Agentic_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/agents/sweagent.pdf": {
+      "url": "https://arxiv.org/abs/2405.15793",
+      "evidence": "Agentic_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/agents/agentless.pdf": {
+      "url": "https://arxiv.org/abs/2407.01489",
+      "evidence": "Agentic_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/agents/lightning.pdf": {
+      "url": "https://arxiv.org/abs/2508.03680",
+      "evidence": "Agentic_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/agents/orchestra.pdf": {
+      "url": "https://arxiv.org/html/2511.21689v1",
+      "evidence": "Agentic_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/agents/tau2.pdf": {
+      "url": "https://arxiv.org/abs/2506.07982",
+      "evidence": "Agentic_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/agents/tau.pdf": {
+      "url": "https://arxiv.org/abs/2406.12045",
+      "evidence": "Agentic_LLM_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/rma.pdf": {
+      "url": "https://arxiv.org/abs/2107.04034",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/h2o.pdf": {
+      "url": "https://arxiv.org/abs/2403.04436",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/act.pdf": {
+      "url": "https://arxiv.org/abs/2304.13705",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/dp.pdf": {
+      "url": "https://arxiv.org/html/2303.04137v5",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/rt2.pdf": {
+      "url": "https://arxiv.org/abs/2307.15818",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/oxe.pdf": {
+      "url": "https://arxiv.org/abs/2310.08864",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/droid.pdf": {
+      "url": "https://arxiv.org/abs/2403.12945",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/octo.pdf": {
+      "url": "https://arxiv.org/abs/2405.12213",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/openvla.pdf": {
+      "url": "https://arxiv.org/abs/2406.09246",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/pi0.pdf": {
+      "url": "https://arxiv.org/html/2410.24164v3",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/fast.pdf": {
+      "url": "https://arxiv.org/abs/2501.09747",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/oft.pdf": {
+      "url": "https://arxiv.org/abs/2502.19645",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/pi05.pdf": {
+      "url": "https://arxiv.org/html/2504.16054v1",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/recap.pdf": {
+      "url": "https://arxiv.org/abs/2511.14759",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/pi07.pdf": {
+      "url": "https://arxiv.org/abs/2604.15483",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/robotics/pdfs/rtc.pdf": {
+      "url": "https://arxiv.org/abs/2506.07339",
+      "evidence": "Robotics_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/world/pdfs/pets.pdf": {
+      "url": "https://arxiv.org/abs/1805.12114",
+      "evidence": "World_Models_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/world/pdfs/planet.pdf": {
+      "url": "https://arxiv.org/abs/1811.04551",
+      "evidence": "World_Models_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/world/pdfs/dreamer.pdf": {
+      "url": "https://arxiv.org/abs/1912.01603",
+      "evidence": "World_Models_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/world/pdfs/dv2.pdf": {
+      "url": "https://arxiv.org/abs/2010.02193",
+      "evidence": "World_Models_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/world/pdfs/dv3.pdf": {
+      "url": "https://arxiv.org/abs/2301.04104",
+      "evidence": "World_Models_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/world/pdfs/muzero.pdf": {
+      "url": "https://arxiv.org/abs/1911.08265",
+      "evidence": "World_Models_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/world/pdfs/tdmpc2.pdf": {
+      "url": "https://arxiv.org/abs/2310.16828",
+      "evidence": "World_Models_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/world/pdfs/iris.pdf": {
+      "url": "https://arxiv.org/abs/2209.00588",
+      "evidence": "World_Models_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/world/pdfs/diamond.pdf": {
+      "url": "https://arxiv.org/abs/2405.12399",
+      "evidence": "World_Models_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/world/pdfs/genie.pdf": {
+      "url": "https://arxiv.org/abs/2402.15391",
+      "evidence": "World_Models_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/world/pdfs/vjepa.pdf": {
+      "url": "https://arxiv.org/abs/2506.09985",
+      "evidence": "World_Models_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/world/pdfs/dv4.pdf": {
+      "url": "https://arxiv.org/abs/2509.24527",
+      "evidence": "World_Models_Guide.html adjacent source link"
+    },
+    "assets/vla/details_discrete/openvla.pdf": {
+      "url": "https://arxiv.org/abs/2406.09246",
+      "evidence": "VLA_Algorithms_Guide.html adjacent source link"
+    },
+    "assets/vla/details_discrete/fast.pdf": {
+      "url": "https://arxiv.org/abs/2501.09747",
+      "evidence": "VLA_Algorithms_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/zeroquant.pdf": {
+      "url": "https://arxiv.org/abs/2206.01861",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/int8.pdf": {
+      "url": "https://arxiv.org/abs/2208.07339",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/smooth.pdf": {
+      "url": "https://arxiv.org/abs/2211.10438",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/gptq.pdf": {
+      "url": "https://arxiv.org/abs/2210.17323",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/awq.pdf": {
+      "url": "https://arxiv.org/abs/2306.00978",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/spqr.pdf": {
+      "url": "https://arxiv.org/abs/2306.03078",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/omni.pdf": {
+      "url": "https://arxiv.org/abs/2308.13137",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/quip.pdf": {
+      "url": "https://arxiv.org/abs/2402.04396",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/aqlm.pdf": {
+      "url": "https://arxiv.org/abs/2401.06118",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/quarot.pdf": {
+      "url": "https://arxiv.org/abs/2404.00456",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/spin.pdf": {
+      "url": "https://arxiv.org/abs/2405.16406",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/qlora.pdf": {
+      "url": "https://arxiv.org/abs/2305.14314",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/nvfp4.pdf": {
+      "url": "https://arxiv.org/abs/2509.25149",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/fp8.pdf": {
+      "url": "https://arxiv.org/abs/2209.05433",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/kivi.pdf": {
+      "url": "https://arxiv.org/abs/2402.02750",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/kvquant.pdf": {
+      "url": "https://arxiv.org/abs/2401.18079",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/qat.pdf": {
+      "url": "https://arxiv.org/abs/2305.17888",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/bitnet.pdf": {
+      "url": "https://arxiv.org/abs/2402.17764",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/signround.pdf": {
+      "url": "https://arxiv.org/abs/2309.05516",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/signround2.pdf": {
+      "url": "https://arxiv.org/abs/2512.04746",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/quiporiginal.pdf": {
+      "url": "https://arxiv.org/abs/2307.13304",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/duquant.pdf": {
+      "url": "https://arxiv.org/abs/2406.01721",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/flat.pdf": {
+      "url": "https://arxiv.org/abs/2410.09426",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/duquant2.pdf": {
+      "url": "https://arxiv.org/abs/2604.17789",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/turboquant.pdf": {
+      "url": "https://arxiv.org/abs/2504.19874",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/ultraquant.pdf": {
+      "url": "https://arxiv.org/abs/2606.20474",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/squeeze.pdf": {
+      "url": "https://arxiv.org/abs/2306.07629",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/quantization/papers/marlin.pdf": {
+      "url": "https://arxiv.org/abs/2408.11743",
+      "evidence": "LLM_Quantization_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/leviathan.pdf": {
+      "url": "https://arxiv.org/abs/2211.17192",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/blockwise.pdf": {
+      "url": "https://arxiv.org/abs/1811.03115",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "assets/speculative_refresh/cascade.pdf": {
+      "url": "https://arxiv.org/html/2312.11462v5",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/specinfer.pdf": {
+      "url": "https://arxiv.org/abs/2305.09781",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/spectr.pdf": {
+      "url": "https://arxiv.org/abs/2310.15141",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/sequoia.pdf": {
+      "url": "https://arxiv.org/abs/2402.12374",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/medusa.pdf": {
+      "url": "https://arxiv.org/abs/2401.10774",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/hydra.pdf": {
+      "url": "https://arxiv.org/abs/2402.05109",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/eagle1.pdf": {
+      "url": "https://arxiv.org/abs/2401.15077",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/eagle2.pdf": {
+      "url": "https://arxiv.org/abs/2406.16858",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/eagle3.pdf": {
+      "url": "https://arxiv.org/abs/2503.01840",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/layerskip.pdf": {
+      "url": "https://arxiv.org/abs/2404.16710",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/rest.pdf": {
+      "url": "https://arxiv.org/abs/2311.08252",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/lookahead.pdf": {
+      "url": "https://arxiv.org/abs/2402.02057",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/dflash.pdf": {
+      "url": "https://arxiv.org/abs/2602.06036",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "assets/speculative_refresh/space.pdf": {
+      "url": "https://github.com/cteant/SPACE",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/magicdec.pdf": {
+      "url": "https://arxiv.org/abs/2408.11049",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "talk_assets/deep_guides/speculative/specserve.pdf": {
+      "url": "https://arxiv.org/abs/2503.05096",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "assets/speculative_2026/ssd.pdf": {
+      "url": "https://arxiv.org/html/2603.03251v1",
+      "evidence": "LLM_Speculative_Decoding_Guide.html cited in corresponding section"
+    },
+    "assets/speculative_2026/ddtree.pdf": {
+      "url": "https://arxiv.org/html/2604.12989v1",
+      "evidence": "LLM_Speculative_Decoding_Guide.html cited in corresponding section"
+    },
+    "assets/speculative_2026/jetspec.pdf": {
+      "url": "https://arxiv.org/html/2606.18394v1",
+      "evidence": "LLM_Speculative_Decoding_Guide.html cited in corresponding section"
+    },
+    "assets/speculative_2026/dspark.pdf": {
+      "url": "https://arxiv.org/html/2607.05147v1",
+      "evidence": "LLM_Speculative_Decoding_Guide.html cited in corresponding section"
+    },
+    "talk_assets/deep_guides/speculative/specbench.pdf": {
+      "url": "https://aclanthology.org/2024.findings-acl.456.pdf",
+      "evidence": "LLM_Speculative_Decoding_Guide.html adjacent source link"
+    },
+    "assets/deepseek_sparse_2026/DeepSeek_V4_2606.19348.pdf": {
+      "url": "https://arxiv.org/abs/2606.19348",
+      "evidence": "Sparse_Attention_Guide.html cited in corresponding section"
+    },
+    "assets/deepseek_sparse_2026/DeepSeek_V41_2609.19969.pdf": {
+      "url": "https://arxiv.org/abs/2609.19969",
+      "evidence": "Sparse_Attention_Guide.html cited in corresponding section"
+    },
+    "talk_assets/deep_guides/kv/paged.pdf": {
+      "url": "https://arxiv.org/pdf/2309.06180",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/vattention.pdf": {
+      "url": "https://arxiv.org/pdf/2405.04437",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/sglang.pdf": {
+      "url": "https://arxiv.org/pdf/2312.07104",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/h2o.pdf": {
+      "url": "https://arxiv.org/pdf/2306.14048",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/streaming.pdf": {
+      "url": "https://arxiv.org/pdf/2309.17453",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/snapkv.pdf": {
+      "url": "https://arxiv.org/pdf/2404.14469",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/pyramidkv.pdf": {
+      "url": "https://arxiv.org/pdf/2406.02069",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/quest.pdf": {
+      "url": "https://arxiv.org/pdf/2406.10774",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/kivi.pdf": {
+      "url": "https://arxiv.org/pdf/2402.02750",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/kvquant.pdf": {
+      "url": "https://arxiv.org/pdf/2401.18079",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/cachegen.pdf": {
+      "url": "https://arxiv.org/pdf/2310.07240",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/cacheblend.pdf": {
+      "url": "https://arxiv.org/pdf/2405.16444",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/flexgen.pdf": {
+      "url": "https://arxiv.org/pdf/2303.06865",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/infini.pdf": {
+      "url": "https://www.usenix.org/system/files/osdi24-lee.pdf",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/fastdecode.pdf": {
+      "url": "https://arxiv.org/pdf/2403.11421",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/mooncake.pdf": {
+      "url": "https://arxiv.org/pdf/2407.00079",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    },
+    "talk_assets/deep_guides/kv/lmcache.pdf": {
+      "url": "https://arxiv.org/pdf/2510.09665",
+      "evidence": "talk_assets/deep_guides/kv/archive_manifest.json"
+    }
+  },
+  "source_files_required": [
+    "Agentic_LLM_Guide.html",
+    "Distributed_LLM_Guide.html",
+    "KV_Cache_Management_Guide.html",
+    "LLM_Hardware_Guide.html",
+    "LLM_Inference_Systems_Guide.html",
+    "LLM_Quantization_Guide.html",
+    "LLM_Speculative_Decoding_Guide.html",
+    "LLM_Training_Guide.html",
+    "Learning_Library.html",
+    "Linear_Attention_Guide.html",
+    "MoE_Serving_Guide.html",
+    "Recurrent_Depth_Looped_Transformers_Guide.html",
+    "Robotics_Algorithms_Guide.html",
+    "Sparse_Attention_Guide.html",
+    "VLA_Algorithms_Guide.html",
+    "World_Models_Computation_Guide.html",
+    "World_Models_Guide.html",
+    "assets/annotations/README.md",
+    "assets/annotations/annotations.css",
+    "assets/annotations/annotations.js",
+    "assets/annotations/cloud-config.js",
+    "assets/annotations/cloud-sync.js",
+    "assets/deepseek_sparse_2026/v41_architecture.svg",
+    "assets/deepseek_sparse_2026/v41_cache.png",
+    "assets/deepseek_sparse_2026/v41_csa2.svg",
+    "assets/deepseek_sparse_2026/v41_flops.png",
+    "assets/deepseek_sparse_2026/v41_hsi.svg",
+    "assets/deepseek_sparse_2026/v4_csa.svg",
+    "assets/deepseek_sparse_2026/v4_hca.svg",
+    "assets/math/katex/LICENSE",
+    "assets/math/katex/fonts/KaTeX_AMS-Regular.ttf",
+    "assets/math/katex/fonts/KaTeX_AMS-Regular.woff",
+    "assets/math/katex/fonts/KaTeX_AMS-Regular.woff2",
+    "assets/math/katex/fonts/KaTeX_Caligraphic-Bold.ttf",
+    "assets/math/katex/fonts/KaTeX_Caligraphic-Bold.woff",
+    "assets/math/katex/fonts/KaTeX_Caligraphic-Bold.woff2",
+    "assets/math/katex/fonts/KaTeX_Caligraphic-Regular.ttf",
+    "assets/math/katex/fonts/KaTeX_Caligraphic-Regular.woff",
+    "assets/math/katex/fonts/KaTeX_Caligraphic-Regular.woff2",
+    "assets/math/katex/fonts/KaTeX_Fraktur-Bold.ttf",
+    "assets/math/katex/fonts/KaTeX_Fraktur-Bold.woff",
+    "assets/math/katex/fonts/KaTeX_Fraktur-Bold.woff2",
+    "assets/math/katex/fonts/KaTeX_Fraktur-Regular.ttf",
+    "assets/math/katex/fonts/KaTeX_Fraktur-Regular.woff",
+    "assets/math/katex/fonts/KaTeX_Fraktur-Regular.woff2",
+    "assets/math/katex/fonts/KaTeX_Main-Bold.ttf",
+    "assets/math/katex/fonts/KaTeX_Main-Bold.woff",
+    "assets/math/katex/fonts/KaTeX_Main-Bold.woff2",
+    "assets/math/katex/fonts/KaTeX_Main-BoldItalic.ttf",
+    "assets/math/katex/fonts/KaTeX_Main-BoldItalic.woff",
+    "assets/math/katex/fonts/KaTeX_Main-BoldItalic.woff2",
+    "assets/math/katex/fonts/KaTeX_Main-Italic.ttf",
+    "assets/math/katex/fonts/KaTeX_Main-Italic.woff",
+    "assets/math/katex/fonts/KaTeX_Main-Italic.woff2",
+    "assets/math/katex/fonts/KaTeX_Main-Regular.ttf",
+    "assets/math/katex/fonts/KaTeX_Main-Regular.woff",
+    "assets/math/katex/fonts/KaTeX_Main-Regular.woff2",
+    "assets/math/katex/fonts/KaTeX_Math-BoldItalic.ttf",
+    "assets/math/katex/fonts/KaTeX_Math-BoldItalic.woff",
+    "assets/math/katex/fonts/KaTeX_Math-BoldItalic.woff2",
+    "assets/math/katex/fonts/KaTeX_Math-Italic.ttf",
+    "assets/math/katex/fonts/KaTeX_Math-Italic.woff",
+    "assets/math/katex/fonts/KaTeX_Math-Italic.woff2",
+    "assets/math/katex/fonts/KaTeX_SansSerif-Bold.ttf",
+    "assets/math/katex/fonts/KaTeX_SansSerif-Bold.woff",
+    "assets/math/katex/fonts/KaTeX_SansSerif-Bold.woff2",
+    "assets/math/katex/fonts/KaTeX_SansSerif-Italic.ttf",
+    "assets/math/katex/fonts/KaTeX_SansSerif-Italic.woff",
+    "assets/math/katex/fonts/KaTeX_SansSerif-Italic.woff2",
+    "assets/math/katex/fonts/KaTeX_SansSerif-Regular.ttf",
+    "assets/math/katex/fonts/KaTeX_SansSerif-Regular.woff",
+    "assets/math/katex/fonts/KaTeX_SansSerif-Regular.woff2",
+    "assets/math/katex/fonts/KaTeX_Script-Regular.ttf",
+    "assets/math/katex/fonts/KaTeX_Script-Regular.woff",
+    "assets/math/katex/fonts/KaTeX_Script-Regular.woff2",
+    "assets/math/katex/fonts/KaTeX_Size1-Regular.ttf",
+    "assets/math/katex/fonts/KaTeX_Size1-Regular.woff",
+    "assets/math/katex/fonts/KaTeX_Size1-Regular.woff2",
+    "assets/math/katex/fonts/KaTeX_Size2-Regular.ttf",
+    "assets/math/katex/fonts/KaTeX_Size2-Regular.woff",
+    "assets/math/katex/fonts/KaTeX_Size2-Regular.woff2",
+    "assets/math/katex/fonts/KaTeX_Size3-Regular.ttf",
+    "assets/math/katex/fonts/KaTeX_Size3-Regular.woff",
+    "assets/math/katex/fonts/KaTeX_Size3-Regular.woff2",
+    "assets/math/katex/fonts/KaTeX_Size4-Regular.ttf",
+    "assets/math/katex/fonts/KaTeX_Size4-Regular.woff",
+    "assets/math/katex/fonts/KaTeX_Size4-Regular.woff2",
+    "assets/math/katex/fonts/KaTeX_Typewriter-Regular.ttf",
+    "assets/math/katex/fonts/KaTeX_Typewriter-Regular.woff",
+    "assets/math/katex/fonts/KaTeX_Typewriter-Regular.woff2",
+    "assets/math/katex/katex.min.css",
+    "assets/math/paper-math.css",
+    "assets/speculative_2026/ddtree_budget.svg",
+    "assets/speculative_2026/dflash_arch.svg",
+    "assets/speculative_2026/dspark_arch.svg",
+    "assets/speculative_2026/jetspec_arch.png",
+    "assets/speculative_2026/ssd_pipeline.svg",
+    "assets/speculative_refresh/cascade-original.png",
+    "assets/speculative_refresh/space-original.jpg",
+    "assets/vla/details_discrete/fast_fig4.png",
+    "assets/vla/details_discrete/openvla_fig2.png",
+    "assets/vla/details_flow/pi0_overview.png",
+    "assets/vla/details_heads/octo_architecture.png",
+    "assets/vla/details_heads/oft_architecture.png",
+    "assets/world_tensor/tdmpc2/architecture.png",
+    "assets/world_tensor/vjepa/figure6_training.png",
+    "data/hardware_chip_reference.csv",
+    "data/hardware_chip_reference.json",
+    "data/hardware_pricing_reference.csv",
+    "data/hardware_pricing_reference.json",
+    "hardware_benchmark_evidence.json",
+    "paper_archive_manifest.json",
+    "talk_assets/deep_guides/agents/ace_pipeline.png",
+    "talk_assets/deep_guides/agents/agentless_pipeline.png",
+    "talk_assets/deep_guides/agents/lats_operations.png",
+    "talk_assets/deep_guides/agents/lightning_credit.png",
+    "talk_assets/deep_guides/agents/memgpt_hierarchy.png",
+    "talk_assets/deep_guides/agents/orchestra_pipeline.png",
+    "talk_assets/deep_guides/agents/orchestra_results.png",
+    "talk_assets/deep_guides/agents/react_loop.png",
+    "talk_assets/deep_guides/agents/reflexion_loop.png",
+    "talk_assets/deep_guides/agents/sweagent_ablation.png",
+    "talk_assets/deep_guides/agents/sweagent_interface.png",
+    "talk_assets/deep_guides/agents/tau2_control.png",
+    "talk_assets/deep_guides/agents/tau_reliability.png",
+    "talk_assets/deep_guides/agents/toolformer_filter.png",
+    "talk_assets/deep_guides/agents/tot_search.png",
+    "talk_assets/deep_guides/distributed/figures/diloco_layout.png",
+    "talk_assets/deep_guides/distributed/figures/distserve_interference.png",
+    "talk_assets/deep_guides/distributed/figures/distserve_results.png",
+    "talk_assets/deep_guides/distributed/figures/gpipe_sched.png",
+    "talk_assets/deep_guides/distributed/figures/meg3d_sched.png",
+    "talk_assets/deep_guides/distributed/figures/megatron_mlp.png",
+    "talk_assets/deep_guides/distributed/figures/ring_layout.png",
+    "talk_assets/deep_guides/distributed/figures/sarathi_sched.png",
+    "talk_assets/deep_guides/distributed/figures/sp_layout.png",
+    "talk_assets/deep_guides/distributed/figures/stream_layout.png",
+    "talk_assets/deep_guides/distributed/figures/stream_schedule.png",
+    "talk_assets/deep_guides/distributed/figures/ulysses_layout.png",
+    "talk_assets/deep_guides/distributed/figures/zero_sched.png",
+    "talk_assets/deep_guides/distributed/figures/zero_state.png",
+    "talk_assets/deep_guides/hardware/figures/edge_power.png",
+    "talk_assets/deep_guides/hardware/figures/edge_quant.png",
+    "talk_assets/deep_guides/hardware/figures/flash3_pipe.png",
+    "talk_assets/deep_guides/hardware/figures/flash3_result.png",
+    "talk_assets/deep_guides/hardware/figures/flash4_pipe.png",
+    "talk_assets/deep_guides/hardware/figures/flash4_table.png",
+    "talk_assets/deep_guides/hardware/figures/flash_io.png",
+    "talk_assets/deep_guides/hardware/figures/gaudi_mme.png",
+    "talk_assets/deep_guides/hardware/figures/rtx_sm.png",
+    "talk_assets/deep_guides/hardware/figures/tpu_a2a.png",
+    "talk_assets/deep_guides/hardware/figures/tpu_arch.png",
+    "talk_assets/deep_guides/hardware/figures/tpu_ocs.png",
+    "talk_assets/deep_guides/hardware/figures/tpu_roof.png",
+    "talk_assets/deep_guides/hardware/figures/tpu_twist.png",
+    "talk_assets/deep_guides/kv/blend_repair.png",
+    "talk_assets/deep_guides/kv/cachegen_anchor.png",
+    "talk_assets/deep_guides/kv/fastdecode_pipeline.png",
+    "talk_assets/deep_guides/kv/flex_schedule.png",
+    "talk_assets/deep_guides/kv/h2o_retention.png",
+    "talk_assets/deep_guides/kv/infini_prefetch.png",
+    "talk_assets/deep_guides/kv/kivi_distribution.png",
+    "talk_assets/deep_guides/kv/kivi_groups.png",
+    "talk_assets/deep_guides/kv/kvquant_rope.png",
+    "talk_assets/deep_guides/kv/lmcache_workflow.png",
+    "talk_assets/deep_guides/kv/moon_arch.png",
+    "talk_assets/deep_guides/kv/moon_workflow.png",
+    "talk_assets/deep_guides/kv/paged_cow.png",
+    "talk_assets/deep_guides/kv/paged_kernel.png",
+    "talk_assets/deep_guides/kv/paged_waste.png",
+    "talk_assets/deep_guides/kv/pyramid_layers.png",
+    "talk_assets/deep_guides/kv/quest_bound.png",
+    "talk_assets/deep_guides/kv/quest_timing.png",
+    "talk_assets/deep_guides/kv/radix_operations.png",
+    "talk_assets/deep_guides/kv/snap_selection.png",
+    "talk_assets/deep_guides/kv/streaming_sink.png",
+    "talk_assets/deep_guides/kv/virtual_mapping.png",
+    "talk_assets/deep_guides/moe/deepseek_specialization.png",
+    "talk_assets/deep_guides/moe/deepspeed_parallel.png",
+    "talk_assets/deep_guides/moe/fiddler_placement.png",
+    "talk_assets/deep_guides/moe/infinity_cache.png",
+    "talk_assets/deep_guides/moe/infinity_trace.png",
+    "talk_assets/deep_guides/moe/lina_skew.png",
+    "talk_assets/deep_guides/moe/megablocks_sparse.png",
+    "talk_assets/deep_guides/moe/megascale_architecture.png",
+    "talk_assets/deep_guides/moe/megascale_pipeline.png",
+    "talk_assets/deep_guides/moe/megascale_results.png",
+    "talk_assets/deep_guides/moe/megascale_utilization.png",
+    "talk_assets/deep_guides/moe/pregated_dependency.png",
+    "talk_assets/deep_guides/moe/sida_predictor.png",
+    "talk_assets/deep_guides/moe/switch_block.png",
+    "talk_assets/deep_guides/moe/switch_capacity.png",
+    "talk_assets/deep_guides/moe/tutel_pipeline.png",
+    "talk_assets/deep_guides/quantization/figures/aqlm_codes.png",
+    "talk_assets/deep_guides/quantization/figures/aqlm_result.png",
+    "talk_assets/deep_guides/quantization/figures/awq_scale.png",
+    "talk_assets/deep_guides/quantization/figures/fp8_table.png",
+    "talk_assets/deep_guides/quantization/figures/gptq_blocks.png",
+    "talk_assets/deep_guides/quantization/figures/int8_split.png",
+    "talk_assets/deep_guides/quantization/figures/kivi_online.png",
+    "talk_assets/deep_guides/quantization/figures/kvquant_rope.png",
+    "talk_assets/deep_guides/quantization/figures/nvfp4_ablation.png",
+    "talk_assets/deep_guides/quantization/figures/nvfp4_format.png",
+    "talk_assets/deep_guides/quantization/figures/omni_block.png",
+    "talk_assets/deep_guides/quantization/figures/qlora_memory.png",
+    "talk_assets/deep_guides/quantization/figures/quarot_ffn.png",
+    "talk_assets/deep_guides/quantization/figures/quip_lattice.png",
+    "talk_assets/deep_guides/quantization/figures/smooth_range.png",
+    "talk_assets/deep_guides/quantization/figures/spin_variance.png",
+    "talk_assets/deep_guides/quantization/figures/spqr_sensitivity.png",
+    "talk_assets/deep_guides/quantization/figures/zeroquant_fusion.png",
+    "talk_assets/deep_guides/quantization/ggml-common.h",
+    "talk_assets/deep_guides/robotics/figures/act_ablations.png",
+    "talk_assets/deep_guides/robotics/figures/act_cvae.png",
+    "talk_assets/deep_guides/robotics/figures/act_ensemble.png",
+    "talk_assets/deep_guides/robotics/figures/diffusion_architecture.png",
+    "talk_assets/deep_guides/robotics/figures/diffusion_modes.png",
+    "talk_assets/deep_guides/robotics/figures/droid_generalization.png",
+    "talk_assets/deep_guides/robotics/figures/fast_dct.png",
+    "talk_assets/deep_guides/robotics/figures/h2o_retargeting.png",
+    "talk_assets/deep_guides/robotics/figures/octo_modularity.png",
+    "talk_assets/deep_guides/robotics/figures/oft_parallel.png",
+    "talk_assets/deep_guides/robotics/figures/openvla_architecture.png",
+    "talk_assets/deep_guides/robotics/figures/oxe_distribution.png",
+    "talk_assets/deep_guides/robotics/figures/pi05_stages.png",
+    "talk_assets/deep_guides/robotics/figures/pi07_architecture.png",
+    "talk_assets/deep_guides/robotics/figures/pi0_architecture.png",
+    "talk_assets/deep_guides/robotics/figures/recap_architecture.png",
+    "talk_assets/deep_guides/robotics/figures/recap_throughput.png",
+    "talk_assets/deep_guides/robotics/figures/recap_values.png",
+    "talk_assets/deep_guides/robotics/figures/rma_adaptation.png",
+    "talk_assets/deep_guides/robotics/figures/rt2_actions_language.png",
+    "talk_assets/deep_guides/robotics/figures/rtc_inpainting.png",
+    "talk_assets/deep_guides/speculative/blockwise_original.png",
+    "talk_assets/deep_guides/speculative/dflash_original.png",
+    "talk_assets/deep_guides/speculative/eagle1_original.png",
+    "talk_assets/deep_guides/speculative/eagle2_original.png",
+    "talk_assets/deep_guides/speculative/eagle3_inference.png",
+    "talk_assets/deep_guides/speculative/eagle3_training.png",
+    "talk_assets/deep_guides/speculative/exact_original.png",
+    "talk_assets/deep_guides/speculative/hydra_original.png",
+    "talk_assets/deep_guides/speculative/layerskip_inference.png",
+    "talk_assets/deep_guides/speculative/layerskip_original.png",
+    "talk_assets/deep_guides/speculative/lookahead_original.png",
+    "talk_assets/deep_guides/speculative/magicdec_original.png",
+    "talk_assets/deep_guides/speculative/medusa_original.png",
+    "talk_assets/deep_guides/speculative/rest_original.png",
+    "talk_assets/deep_guides/speculative/sequoia_original.png",
+    "talk_assets/deep_guides/speculative/specbench_table.png",
+    "talk_assets/deep_guides/speculative/specinfer_original.png",
+    "talk_assets/deep_guides/speculative/specserve_original.png",
+    "talk_assets/deep_guides/speculative/spectr_original.png",
+    "talk_assets/deep_guides/training/dapo_clipping.png",
+    "talk_assets/deep_guides/training/dclm_workflow.png",
+    "talk_assets/deep_guides/training/dpo_pipeline.png",
+    "talk_assets/deep_guides/training/fineweb_dedup.png",
+    "talk_assets/deep_guides/training/grpo_pipeline.png",
+    "talk_assets/deep_guides/training/instruct_pipeline.png",
+    "talk_assets/deep_guides/training/llama3_scaling.png",
+    "talk_assets/deep_guides/training/lora_structure.png",
+    "talk_assets/deep_guides/training/mixed_precision.png",
+    "talk_assets/deep_guides/training/muon_decay.png",
+    "talk_assets/deep_guides/training/qlora_memory.png",
+    "talk_assets/deep_guides/training/r1_pipeline.png",
+    "talk_assets/deep_guides/world/figures/diamond_details.png",
+    "talk_assets/deep_guides/world/figures/diamond_drift.png",
+    "talk_assets/deep_guides/world/figures/dreamer4_architecture.png",
+    "talk_assets/deep_guides/world/figures/dreamer4_results.png",
+    "talk_assets/deep_guides/world/figures/dreamer_learning.png",
+    "talk_assets/deep_guides/world/figures/dreamerv2_categorical.png",
+    "talk_assets/deep_guides/world/figures/dreamerv3_ablations.png",
+    "talk_assets/deep_guides/world/figures/genie_latent_actions.png",
+    "talk_assets/deep_guides/world/figures/iris_tokens.png",
+    "talk_assets/deep_guides/world/figures/muzero_search.png",
+    "talk_assets/deep_guides/world/figures/pets_uncertainty.png",
+    "talk_assets/deep_guides/world/figures/planet_overshooting.png",
+    "talk_assets/deep_guides/world/figures/planet_rssm.png",
+    "talk_assets/deep_guides/world/figures/tdmpc2_scaling.png",
+    "talk_assets/deep_guides/world/figures/vjepa_planning.png",
+    "talk_assets/deep_guides/world/figures/vjepa_training.png"
+  ]
+}

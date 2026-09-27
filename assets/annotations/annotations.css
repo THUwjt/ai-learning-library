@@ -1,0 +1,41 @@
+/* Local annotation pilot. All UI rules are scoped to avoid changing guide content. */
+.la-ui{font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink,#23303b);box-sizing:border-box}
+.la-ui *, .la-ui *::before,.la-ui *::after{box-sizing:border-box}
+.la-ui [hidden],.la-ui[hidden]{display:none!important}
+.la-ui button,.la-ui input,.la-ui textarea{font:inherit}
+.la-ui button{cursor:pointer;border:1px solid var(--rule,#ddd);border-radius:8px;padding:8px 12px;background:var(--card,#fff);color:var(--ink,#23303b)}
+.la-ui button:hover{border-color:var(--teal,#186b7d)}
+.la-ui button:focus-visible,.la-ui textarea:focus-visible,.la-ui input:focus-visible{outline:3px solid var(--teal,#186b7d);outline-offset:3px}
+.la-ui button:disabled{cursor:default;opacity:.55}
+.la-ui .la-primary{background:var(--teal,#186b7d);border-color:var(--teal,#186b7d);color:var(--paper,#fff)}
+#la-toggle{position:fixed;bottom:22px;right:22px;z-index:1001;box-shadow:0 3px 16px #0002;border-radius:24px;padding:11px 17px}
+#la-toolbar{position:fixed;z-index:1100;box-shadow:0 3px 18px #0003;border-radius:8px}
+#la-panel{position:fixed;inset:0 0 0 auto;width:min(390px,100vw);z-index:1050;background:var(--paper,#fbfaf7);border-left:1px solid var(--rule,#ddd);box-shadow:-6px 0 32px #0002;overflow:auto;padding:22px;overscroll-behavior:contain}
+#la-panel h2{font:700 22px/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0}
+#la-panel h3{font:650 16px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0 0 10px}
+.la-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.la-head{justify-content:space-between;margin-bottom:12px}
+.la-help,.la-meta{font-size:12px;color:var(--muted,#65727d)}
+.la-help{margin:10px 0}.la-status{font-size:12px;border-left:3px solid var(--teal,#186b7d);padding:8px 10px;margin:12px 0;background:var(--hl,#f3efe6)}
+.la-status[data-warning="true"]{border-left-color:#bf7020}
+#la-search{width:100%;border:1px solid var(--rule,#ddd);border-radius:8px;padding:9px;background:var(--card,#fff);color:inherit;margin:16px 0 10px}
+.la-note{border:1px solid var(--rule,#ddd);background:var(--card,#fff);border-radius:10px;padding:13px;margin:12px 0;scroll-margin-top:14px}
+.la-note[data-active="true"]{border-color:var(--teal,#186b7d);box-shadow:0 0 0 2px var(--teal,#186b7d)}
+.la-quote{border-left:3px solid #d4a634;padding:6px 10px;margin:8px 0 12px;font:italic 14px/1.5 Georgia,serif;white-space:pre-wrap;overflow-wrap:anywhere;max-height:160px;overflow:auto}
+.la-comment{white-space:pre-wrap;overflow-wrap:anywhere;margin:10px 0 14px}
+.la-note button{font-size:12px;padding:5px 8px}
+#la-editor{margin:16px 0;padding:14px;border:1px solid var(--teal,#186b7d);border-radius:10px;background:var(--card,#fff)}
+#la-editor label{display:block;font-weight:600;margin:10px 0 6px}
+#la-comment{display:block;width:100%;min-height:145px;resize:vertical;background:var(--paper,#fff);color:inherit;border:1px solid var(--rule,#ddd);border-radius:7px;padding:10px;margin-bottom:10px}
+mark.la-highlight{background:rgba(246,203,70,.35);color:inherit;border-bottom:2px solid #d4a634;cursor:pointer;border-radius:2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+mark.la-highlight.la-active{background:rgba(246,175,40,.6);border-bottom-color:#b36b00}
+#la-toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%);z-index:1200;max-width:min(520px,90vw);padding:12px 16px;background:var(--navy,#142c48);color:var(--paper,#fff);border-radius:10px;box-shadow:0 3px 16px #0002}
+.la-intro{border:1px solid var(--rule,#ddd);border-radius:10px;padding:12px 16px;margin:18px 0;background:var(--hl,#f3efe6)}
+.la-intro p{margin:0}.la-intro button{margin-top:8px}
+@media(min-width:1500px){body.la-panel-open .wrap{margin-right:410px}}
+@media print{.la-ui{display:none!important}mark.la-highlight{background:none;border-bottom:1px solid #aaa}}
+
+/* Optional authenticated cloud controls. */
+.la-ui .la-cloud{border:1px solid #d9dfdf;border-radius:9px;padding:12px;margin:12px 0;background:#f3f8f7}
+.la-ui .la-cloud h3{font-size:1rem;margin:0 0 8px}
+.la-ui .la-cloud input{min-width:0;max-width:100%;width:100%;box-sizing:border-box;padding:8px;border:1px solid #aabbbb;border-radius:5px;font:inherit}
+.la-ui .la-cloud .la-status{overflow-wrap:anywhere}
