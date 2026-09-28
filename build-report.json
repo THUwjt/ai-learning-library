@@ -1,8 +1,8 @@
 {
   "guide_count": 16,
   "html_count": 18,
-  "files": 283,
-  "bytes": 68337099,
+  "files": 284,
+  "bytes": 68484415,
   "pdf_links_rewritten": 156,
   "retained_pdfs": [],
   "unresolved_local_references": [],
@@ -662,6 +662,7 @@
     "assets/deepseek_sparse_2026/v41_hsi.svg",
     "assets/deepseek_sparse_2026/v4_csa.svg",
     "assets/deepseek_sparse_2026/v4_hca.svg",
+    "assets/editorial/research-summaries.css",
     "assets/math/katex/LICENSE",
     "assets/math/katex/fonts/KaTeX_AMS-Regular.ttf",
     "assets/math/katex/fonts/KaTeX_AMS-Regular.woff",
